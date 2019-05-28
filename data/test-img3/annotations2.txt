@@ -9,11 +9,19 @@
 #./dataset/test-img3/8.jpg   8
 #./dataset/test-img3/9.jpg   9
 #./dataset/test-img3/A.jpg   A
+<<<<<<< HEAD
 #./dataset/test-img3/B.jpg   B
 #./dataset/test-img3/D.jpg   D
 #./dataset/test-img3/E.jpg   E
 #./dataset/test-img3/F.jpg   F
 #./dataset/test-img3/G.jpg   G
+=======
+#./dataset/test-img3/B.jpg   B
+#./dataset/test-img3/D.jpg   D
+#./dataset/test-img3/E.jpg   E
+#./dataset/test-img3/F.jpg   F
+#./dataset/test-img3/G.jpg   G
+>>>>>>> 2ddf72ce0d692c33b3bd32ba730533daae784b99
 #./dataset/test-img3/H.jpg   H
 #./dataset/test-img3/H2.jpg   H
 #./dataset/test-img3/I.jpg   I

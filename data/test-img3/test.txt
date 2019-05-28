@@ -10,11 +10,19 @@
 ./8.jpg   8
 ./9.jpg   9
 ./A.jpg   A
+<<<<<<< HEAD
 ./B.jpg   B
 ./D.jpg   D
 ./E.jpg   E
 ./F.jpg   F
 ./G.jpg   G
+=======
+./B.jpg   B
+./D.jpg   D
+./E.jpg   E
+./F.jpg   F
+./G.jpg   G
+>>>>>>> 2ddf72ce0d692c33b3bd32ba730533daae784b99
 ./H.jpg   H
 ./H2.jpg   H
 ./I.jpg   I
@@ -33,6 +41,11 @@
 ./U.jpg   U
 ./V.jpg   V
 ./W.jpg   W
+<<<<<<< HEAD
 ./cut_E.png   E
 ./cut_H.png   H
+=======
+./cut_E.png   E
+./cut_H.png   H
+>>>>>>> 2ddf72ce0d692c33b3bd32ba730533daae784b99
 ./cut_S.png   S
