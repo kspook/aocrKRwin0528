@@ -230,13 +230,13 @@ def main(args=None):
             logging.info('dataset')		
             logging.info(parameters.annotations_path)	
             logging.info(parameters.output_path)
-            logging.info(parameters.log_step)				
+            #logging.info(parameters.log_step)				
             logging.info(parameters.save_filename)		
             #logging.info('dataset')					
             dataset.generate(
                 parameters.annotations_path,
                 parameters.output_path,
-                parameters.log_step,
+                #parameters.log_step,
                 parameters.force_uppercase,
                 parameters.save_filename
             )
@@ -288,12 +288,12 @@ def main(args=None):
                     with open(filename, 'rb') as img_file:
                         img_file_data = img_file.read()
                         #self.image_file_data=image_file_data
+                    text, probability = model.predict(img_file_data)
+                    logging.info('Result: OK. %s %s', '{:.2f}'.format(probability), text)
+                    #text, probability = model.predict(img_file_data)                         
             except IOError:
                     logging.error('Result: error while opening file %s.', filename)
-                    #continue
-            text, probability = model.predict(img_file_data)
-            #text, probability = model.predict(img_file_data)                
-            logging.info('Result: OK. %s %s', '{:.2f}'.format(probability), text)
+                    #continue               
         elif parameters.phase == 'export':
             exporter = Exporter(model)
             exporter.save(parameters.export_path, parameters.format)

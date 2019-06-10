@@ -72,7 +72,6 @@ class DataGen(object):
         self.bucket_specs = buckets
         self.bucket_data = BucketData()
         self.phase= phase
-        #self.image_file_data=image_file_data
 
         dataset = TFRecordDataset([annotation_fn])
         dataset = dataset.map(self._parse_record)
